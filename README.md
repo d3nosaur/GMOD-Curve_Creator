@@ -24,7 +24,7 @@ local pos = curve:GetPos(time) -- time is between 0 and 1
 -- Returns: The curve object
 CurveClass:New(obj)
 
--- Get a curves position at a time. Be weary of the number of control points in the curve, some curves may require a specific amount to work.
+-- Get a curves position at a time.
 -- Param: Float, the time value (between 0 and 1)
 -- Returns: Vector, the position
 curve:GetPos(time)
